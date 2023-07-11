@@ -25,13 +25,14 @@ In your Level Blueprint, add the blueprint "**Setup 2D Bounding Boxes**" to the 
 CAPTURE
 
 By default, the plugin will take 1920x1080 screenshots but you can choose a different resolution by editing the **Camera_SizeX** and **Camera_SizeY** variable in this node.
+*Note: If you edit the size, press Play once and stop, it will have updated the camera size, you can check the view in the **RT_Capture** file.*
 
 ## Take captures
 
 Now to take screen captures with bounding box label file, just use the **Take Screenshot With Bounding Box** blueprint.
-You can either bind this blueprint to a keyboard K and move around your camera yourself or program camera movement and automaticaly firing screenshots. (The plugin doesn't support this, you have to set this up yourself) 
+You can either bind this blueprint to a keyboard key and tie the camera to your player view or program camera movements and automaticaly fire screenshots. (The plugin doesn't support this, you have to set this up yourself.) 
 
-Just set a path to save the captures and fire the blueprint.
+Just set a path to save the captures, press Play and fire the blueprint!
 It will create 2 folders when taking the captures:
 
 - images: contains the capture files as .png
