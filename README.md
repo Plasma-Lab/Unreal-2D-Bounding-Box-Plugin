@@ -54,6 +54,6 @@ The label file contains 5 columns:
 
 The first Xy couple is the coordinates of the top left of the bounding box, the second one is the bottom right.
 
-You can use the included python notebook to visualize the boxes or get the [notebook here](https://github.com/Plasma-Lab/Unreal-2D-Bounding-Box-Plugin/blob/main/2D_Bounding_boxes.ipynb).
+You can use the included python notebook to visualize the boxes: get the [notebook here](https://github.com/Plasma-Lab/Unreal-2D-Bounding-Box-Plugin/blob/main/2D_Bounding_boxes.ipynb).
 
 ![results](https://github.com/Plasma-Lab/Unreal-2D-Bounding-Box-Plugin/blob/main/BB.PNG?raw=true)
