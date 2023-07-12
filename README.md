@@ -4,6 +4,11 @@
 
 Welcome to the documentation of the Unreal 2D Bounding Box Plugin. A plugin designed to generate synthetic Image Detection datasets by exporting the bounding boxes of meshes in an Unreal scene.
 
+## Prerequisites
+First, go to your project settings, search for  **"Custom Depth-Stencil Pass"**  and set it as  **"Enabled With Stencil"**.
+
+When creating a project, avoid creating an Architecture project as they contains uncompatible settings.
+
 ## Labeling Actors
 For each element in your scene you wish to track, add two ***actor tags*** to your element's actor: the first tag is your label (e.g., "car"), and the second tag must be "BB". 
 The first tag will be used in the label file. The second tag is just here to tell the plugin to track the actor.
@@ -54,6 +59,6 @@ The label file contains 5 columns:
 
 The first Xy couple is the coordinates of the top left of the bounding box, the second one is the bottom right.
 
-You can use the included python notebook to visualize the boxes: get the [notebook here](https://github.com/Plasma-Lab/Unreal-2D-Bounding-Box-Plugin/blob/main/2D_Bounding_boxes.ipynb).
+You can use the included python notebook to visualize the boxes or get the [notebook here](https://github.com/Plasma-Lab/Unreal-2D-Bounding-Box-Plugin/blob/main/2D_Bounding_boxes.ipynb).
 
 ![results](https://github.com/Plasma-Lab/Unreal-2D-Bounding-Box-Plugin/blob/main/BB.PNG?raw=true)
