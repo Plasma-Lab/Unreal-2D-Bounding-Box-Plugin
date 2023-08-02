@@ -34,6 +34,8 @@ In your Level Blueprint, add the blueprint "**Setup 2D Bounding Boxes**" to the 
 By default, the plugin will take 1920x1080 screenshots but you can choose a different resolution by editing the **Camera_SizeX** and **Camera_SizeY** variable in this node.
 *Note: If you edit the size, press Play once and stop, it will have updated the camera size, you can check the view in the **RT_Capture** file.*
 
+edit: if you are on 1.1, you can now edit the resolution and the field of view directly in the details of the **BP_Bounding_Box_Camera** you added in the scene.
+
 note: if new objects are spawning in the scene, they will not be taken into account. To be able to track them, this node should run again at spawn time.
 
 ## Take captures
