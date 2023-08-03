@@ -29,12 +29,11 @@ You can see what the camera sees by opening the file next to it called **RT_Capt
 
 In your Level Blueprint, add the blueprint "**Setup 2D Bounding Boxes**" to the **Event BeginPlay** node.
 
-![setup](https://github.com/Plasma-Lab/Unreal-2D-Bounding-Box-Plugin/blob/main/beginplay.PNG?raw=true)
+![setup](https://github.com/Plasma-Lab/Unreal-2D-Bounding-Box-Plugin/blob/main/beginplay_2.PNG?raw=true)
 
-By default, the plugin will take 1920x1080 screenshots but you can choose a different resolution by editing the **Camera_SizeX** and **Camera_SizeY** variable in this node.
-*Note: If you edit the size, press Play once and stop, it will have updated the camera size, you can check the view in the **RT_Capture** file.*
+By default, the plugin will take 800x600 screenshots but you can choose a different resolution and FOV in the details pannel in the  **BP_Bounding_Box_Camera**.
 
-edit: if you are on 1.1, you can now edit the resolution and the field of view directly in the details of the **BP_Bounding_Box_Camera** you added in the scene.
+![camera settings](https://github.com/Plasma-Lab/Unreal-2D-Bounding-Box-Plugin/blob/main/camera_settings.PNG?raw=true)
 
 note: if new objects are spawning in the scene, they will not be taken into account. To be able to track them, this node should run again at spawn time.
 
@@ -46,6 +45,7 @@ You can either bind this blueprint to a keyboard key and tie the camera to your 
 ![screenshot](https://github.com/Plasma-Lab/Unreal-2D-Bounding-Box-Plugin/blob/main/screenshot.PNG?raw=true)
 
 Just set a path to save the captures, press Play and fire the blueprint!
+You also have the option to add padding around the object to have less tight bounding boxes.
 It will create 2 folders when taking the captures:
 
 - images: contains the capture files as .png
