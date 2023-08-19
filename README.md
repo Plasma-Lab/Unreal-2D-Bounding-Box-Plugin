@@ -57,7 +57,7 @@ It will create 2 folders when taking the captures:
 ![csv](https://github.com/Plasma-Lab/Unreal-2D-Bounding-Box-Plugin/blob/main/csv.PNG?raw=true)
 
 The label file contains 5 columns, the format depends on your choice (csv or YOLO):
-###CSV Format
+### CSV Format
 - label of the tracked mesh
 - X1
 - y1
@@ -66,7 +66,7 @@ The label file contains 5 columns, the format depends on your choice (csv or YOL
 
 The first Xy couple is the coordinates of the top left of the bounding box, the second one is the bottom right.
 
-###YOLO Format
+### YOLO Format
 - label of the tracked mesh
 - X center
 - y center
@@ -74,6 +74,6 @@ The first Xy couple is the coordinates of the top left of the bounding box, the 
 - height
 
 
-You can use the included python notebook to visualize the boxes or get the [notebook here](https://github.com/Plasma-Lab/Unreal-2D-Bounding-Box-Plugin/blob/main/2D_Bounding_boxes.ipynb).
+You can use the included python notebook to visualize the boxes or get the [notebook here](https://github.com/Plasma-Lab/Unreal-2D-Bounding-Box-Plugin/blob/main/2D_Bounding_boxes.ipynb). (only for the CSV format)
 
 ![results](https://github.com/Plasma-Lab/Unreal-2D-Bounding-Box-Plugin/blob/main/BB.PNG?raw=true)
