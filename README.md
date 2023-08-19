@@ -47,7 +47,7 @@ You can either bind this blueprint to a keyboard key and tie the camera to your 
 Just set a path to save the captures, press Play and fire the blueprint!
 You also have the option to: 
 - add padding around the object to have less tight bounding boxes.
-- select the label format, either a regular csv or a txt with the YOLO format
+- select the label format, either a regular csv or a txt with the YOLO format (expand the node to see the option)
 
 It will create 2 folders when taking the captures:
 
