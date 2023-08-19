@@ -48,6 +48,7 @@ Just set a path to save the captures, press Play and fire the blueprint!
 You also have the option to: 
 - add padding around the object to have less tight bounding boxes.
 - select the label format, either a regular csv or a txt with the YOLO format
+
 It will create 2 folders when taking the captures:
 
 - images: contains the capture files as .png
