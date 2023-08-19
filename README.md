@@ -45,7 +45,9 @@ You can either bind this blueprint to a keyboard key and tie the camera to your 
 ![screenshot](https://github.com/Plasma-Lab/Unreal-2D-Bounding-Box-Plugin/blob/main/screenshot.PNG?raw=true)
 
 Just set a path to save the captures, press Play and fire the blueprint!
-You also have the option to add padding around the object to have less tight bounding boxes.
+You also have the option to: 
+- add padding around the object to have less tight bounding boxes.
+- select the label format, either a regular csv or a txt with the YOLO format
 It will create 2 folders when taking the captures:
 
 - images: contains the capture files as .png
@@ -54,7 +56,8 @@ It will create 2 folders when taking the captures:
 # What's in the label file?
 ![csv](https://github.com/Plasma-Lab/Unreal-2D-Bounding-Box-Plugin/blob/main/csv.PNG?raw=true)
 
-The label file contains 5 columns:
+The label file contains 5 columns, the format depends on your choice (csv or YOLO):
+###CSV Format
 - label of the tracked mesh
 - X1
 - y1
@@ -62,6 +65,14 @@ The label file contains 5 columns:
 - y2
 
 The first Xy couple is the coordinates of the top left of the bounding box, the second one is the bottom right.
+
+###YOLO Format
+- label of the tracked mesh
+- X center
+- y center
+- width
+- height
+
 
 You can use the included python notebook to visualize the boxes or get the [notebook here](https://github.com/Plasma-Lab/Unreal-2D-Bounding-Box-Plugin/blob/main/2D_Bounding_boxes.ipynb).
 
